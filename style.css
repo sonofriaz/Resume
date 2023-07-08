@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau SC', 'Roboto Slab';
+    background-color: #FFFFFF ;
+}
+
+::-webkit-scrollbar{
+    width: 0.25rem;
+}
+::-webkit-scrollbar-track{
+    background-color:black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 3rem;
+    
+    
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: red;
+}
+.header{
+    padding:20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;    
+}
+.myul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+a , .namep{
+    font-size: 1.20rem;
+    font-weight: 800;
+}
+
+.dot{
+    color: red;
+    font-size: 2rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+.onesection{
+    padding: 50px;
+    
+}
+.onesection p {
+    font-size: 1.35rem;
+    margin: 20px;
+    
+}
+.mysection{
+    display: flex;
+    
+}
+
+.img1{
+    background-image: url("./pictures/3.jpg");
+    height: 300px;
+    width: 100vw;
+    background-size: cover;
+    margin-top: 120px;
+    margin-left: 50px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.myfoot{
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.mysection , .work h1 {
+    font-size: 2rem;
+    padding: 30px;
+
+}
+.mysection , .work ul {
+    margin-left: 30px;
+    font-size: 1.25rem;
+}
+.qual{
+    padding: 50px;
+    font-size: 1.85rem;
+    font-weight: 400;
+}
+.qual-ul{
+    padding: 50px;
+    margin-left: 20px;
+}
+#qa{
+    margin-left: 100px;
+}
+.qual-ul{
+    font-size: 0.95rem;
+    color: black;
+}
+.pro-h1{
+    padding: 100px;
+    text-align: center;
+
+}
+.pro-myfoot{
+    padding-top: 300px;
+    text-align: center;
+}
