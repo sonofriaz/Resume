@@ -64,7 +64,7 @@ a{
 }
 
 .img1{
-    background-image: url("./pictures/3.jpg");
+    background-image: url("3.jpg");
     height: 300px;
     width: 100vw;
     background-size: cover;
