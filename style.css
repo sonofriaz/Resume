@@ -113,7 +113,6 @@ a{
     padding-top: 300px;
     text-align: center;
 }
-
 @media only screen and (max-width: 480px) and (min-width: 0px){
     .pro-h1{
         color: red;
@@ -137,13 +136,39 @@ a{
         color: red;
     }
 
+    .mysection {
+        flex-direction: column;
+        
+    }
+    .img1{
+        height: 400px;
+        width:  400px;
+    }
+    .onesection p {
+        font-size: 2.5rem;
+    }
+    .mysection{
+
+        padding-top: 10px;
+    }
+    .mysection p {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    .myfoot{
+        font-size: 1.5rem;
+    }
+    .onesection a{
+        font-size: 1.85rem;
+    }
+
 
 }
 @media only screen and (max-width: 768px) and (min-width: 481px)
 {
-    .pro-h1{
+    /* .pro-h1{
         color: blue;
-    }
+    } */
     .header{
         flex-direction: column;
        
@@ -152,16 +177,29 @@ a{
         padding-top: 300px;
         font-size: 1.85rem;
     }
-    .qual{
+    /* .qual{
         color: blue;
-    }
-
-
+    } */
     .qual-ul{
         font-size: 2rem;
     }
     .myfoot p {
         font-size: 1.85rem;
+    }
+    /* .onesection p {
+        color: blue;
+    } */
+    .mysection{
+        flex-direction: column;
+    }
+    .img1{
+        height: 400px;
+        width:  400px;
+        margin-left: 90px;
+        
+    }
+    .myfoot p{
+        font-size: 1.35rem;
     }
 }
 @media only screen and (max-width: 1279px) and (min-width: 769px){
@@ -183,6 +221,18 @@ a{
     }
     .myfoot p {
         font-size: 2rem;
+    }
+    .mysection{
+        flex-direction: column;
+    }
+
+    .img1{
+        height: 400px;
+        width:  400px;
+        margin-left: 90px;
+    }
+    .myfoot p{
+        font-size: 1.35rem;
     }
 }
 @media (min-width: 1280px)
@@ -207,4 +257,3 @@ a{
         font-size: 1rem;
     }
 }
-
