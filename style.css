@@ -113,3 +113,98 @@ a{
     padding-top: 300px;
     text-align: center;
 }
+
+@media only screen and (max-width: 480px) and (min-width: 0px){
+    .pro-h1{
+        color: red;
+    }
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav , .myul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .pro-myfoot p{
+        font-size: 1.30rem;
+
+    }
+    .qual{
+        color: red;
+    }
+
+
+}
+@media only screen and (max-width: 768px) and (min-width: 481px)
+{
+    .pro-h1{
+        color: blue;
+    }
+    .header{
+        flex-direction: column;
+       
+    }
+    .pro-myfoot p{
+        padding-top: 300px;
+        font-size: 1.85rem;
+    }
+    .qual{
+        color: blue;
+    }
+
+
+    .qual-ul{
+        font-size: 2rem;
+    }
+    .myfoot p {
+        font-size: 1.85rem;
+    }
+}
+@media only screen and (max-width: 1279px) and (min-width: 769px){
+    .pro-h1{
+        color: green;
+    }
+    .pro-myfoot p{
+        
+        font-size: 2rem;
+    }
+
+
+    .qual{
+        color: green;
+    }
+
+    .qual-ul{
+        font-size: 2rem;
+    }
+    .myfoot p {
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1280px)
+{
+    .pro-h1{
+        
+        color: orange;
+    }
+    .pro-myfoot p{
+        padding-top: 70px;
+        font-size: 1rem;
+    }
+
+    .qual{
+        color: orange;
+    }
+
+    .qual-ul{
+        font-size: 1.35rem;
+    }
+    .myfoot p {
+        font-size: 1rem;
+    }
+}
+
